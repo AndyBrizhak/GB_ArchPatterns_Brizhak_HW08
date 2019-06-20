@@ -1,6 +1,6 @@
 ﻿namespace GB_ArchPatterns_Brizhak_HW08_01MVC
 {
-    partial class Form1
+    partial class MVCForm
     {
         /// <summary>
         /// Обязательная переменная конструктора.
