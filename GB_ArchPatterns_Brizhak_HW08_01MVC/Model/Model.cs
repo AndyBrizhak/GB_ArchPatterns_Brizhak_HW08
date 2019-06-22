@@ -13,7 +13,7 @@ namespace GB_ArchPatterns_Brizhak_HW08_01MVC.Model
 
         public Model() => _listStr = new List<string>();
 
-        public void AddObserver(IObserver obs)
+        public void AddObserver(IFormObserver obs)
         {
             Change += new ModDelegate<Model>(obs.Change);
         }

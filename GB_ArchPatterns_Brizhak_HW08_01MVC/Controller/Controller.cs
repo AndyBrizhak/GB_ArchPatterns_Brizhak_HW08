@@ -19,7 +19,7 @@ namespace GB_ArchPatterns_Brizhak_HW08_01MVC.Controller
             _model = model ?? throw new ArgumentNullException(nameof(model));
 
             _view.SetContr(this);
-            _model.AddObserver((IObserver) _view);
+            _model.AddObserver((IFormObserver) _view);
             _view.AddStr += new ViewDelegate<IView>(this.ViewChange);
         }
 

@@ -7,10 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using GB_ArchPatterns_Brizhak_HW08_01MVC.View;
 
 namespace GB_ArchPatterns_Brizhak_HW08_01MVC
 {
-    public partial class MVCForm : Form
+    public partial class MVCForm : Form, IView, 
     {
         public MVCForm()
         {
