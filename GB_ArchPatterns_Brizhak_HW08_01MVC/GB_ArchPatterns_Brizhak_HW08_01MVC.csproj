@@ -59,6 +59,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\ViewEvent.cs" />
     <EmbeddedResource Include="View\MVCForm.resx">
       <DependentUpon>MVCForm.cs</DependentUpon>
     </EmbeddedResource>
