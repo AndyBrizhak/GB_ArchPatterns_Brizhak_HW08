@@ -2,6 +2,9 @@
 
 namespace GB_ArchPatterns_Brizhak_HW08_01MVC.Model
 {
+    /// <summary>
+    /// Класс Модель данных
+    /// </summary>
     public class Model : IMod
     {
         public event ModDelegate<Model> Change;

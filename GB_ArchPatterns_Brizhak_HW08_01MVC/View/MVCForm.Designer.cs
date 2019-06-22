@@ -1,5 +1,8 @@
 ﻿namespace GB_ArchPatterns_Brizhak_HW08_01MVC
 {
+    /// <summary>
+    /// Класс для отображения в формате Windows Forms
+    /// </summary>
     partial class MVCForm
     {
         /// <summary>

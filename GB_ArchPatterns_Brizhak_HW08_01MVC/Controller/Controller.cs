@@ -4,6 +4,9 @@ using GB_ArchPatterns_Brizhak_HW08_01MVC.View;
 
 namespace GB_ArchPatterns_Brizhak_HW08_01MVC.Controller
 {
+    /// <summary>
+    /// Класс Controller отслеживает изменения в модели и сообщает View
+    /// </summary>
     public class Controller : IContr
     {
         IView _view;
