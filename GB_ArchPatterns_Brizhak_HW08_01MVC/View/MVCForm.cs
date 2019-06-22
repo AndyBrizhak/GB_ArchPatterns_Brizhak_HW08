@@ -33,5 +33,10 @@ namespace GB_ArchPatterns_Brizhak_HW08_01MVC
         {
             _controller = contr;
         }
+
+        private void buttonAdd_Click(object sender, EventArgs e)
+        {
+            if (textBoxString.Text != null) AddStr.Invoke(this, new ViewEvent(textBoxString.Text));
+        }
     }
 }
