@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using GB_ArchPatterns_Brizhak_HW08_01MVC.Model;
 using GB_ArchPatterns_Brizhak_HW08_01MVC.View;
 

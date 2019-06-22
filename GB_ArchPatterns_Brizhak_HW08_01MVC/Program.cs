@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using GB_ArchPatterns_Brizhak_HW08_01MVC.Controller;
 using GB_ArchPatterns_Brizhak_HW08_01MVC.Model;
