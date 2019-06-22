@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Model\IMod.cs" />
     <Compile Include="Model\IObserver.cs" />
+    <Compile Include="Model\Model.cs" />
     <Compile Include="Model\ModelEvent.cs" />
     <Compile Include="View\MVCForm.cs">
       <SubType>Form</SubType>

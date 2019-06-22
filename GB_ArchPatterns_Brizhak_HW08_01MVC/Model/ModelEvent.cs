@@ -12,9 +12,9 @@ namespace GB_ArchPatterns_Brizhak_HW08_01MVC.Model
    public class ModelEvent : EventArgs
    {
        public string NewStr;
-        public ModelEvent(string Str)
+        public ModelEvent(string str)
         {
-            NewStr = Str;
+            NewStr = str;
         }
     }
 }

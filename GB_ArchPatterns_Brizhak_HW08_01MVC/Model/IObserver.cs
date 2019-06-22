@@ -8,6 +8,6 @@ namespace GB_ArchPatterns_Brizhak_HW08_01MVC.Model
 {
    public interface IObserver
    {
-       void Change(IMod mod);
+       void Change(IMod mod, ModelEvent e);
    }
 }
