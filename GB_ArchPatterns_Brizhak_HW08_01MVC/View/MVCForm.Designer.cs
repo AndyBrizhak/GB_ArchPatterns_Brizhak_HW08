@@ -28,20 +28,55 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.textBoxString = new System.Windows.Forms.TextBox();
+            this.buttonAdd = new System.Windows.Forms.Button();
+            this.listBox = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
+            // 
+            // textBoxString
+            // 
+            this.textBoxString.Location = new System.Drawing.Point(12, 27);
+            this.textBoxString.Name = "textBoxString";
+            this.textBoxString.Size = new System.Drawing.Size(340, 20);
+            this.textBoxString.TabIndex = 0;
+            // 
+            // buttonAdd
+            // 
+            this.buttonAdd.Location = new System.Drawing.Point(13, 73);
+            this.buttonAdd.Name = "buttonAdd";
+            this.buttonAdd.Size = new System.Drawing.Size(137, 23);
+            this.buttonAdd.TabIndex = 1;
+            this.buttonAdd.Text = "Добавить";
+            this.buttonAdd.UseVisualStyleBackColor = true;
+            // 
+            // listBox
+            // 
+            this.listBox.FormattingEnabled = true;
+            this.listBox.Location = new System.Drawing.Point(12, 103);
+            this.listBox.Name = "listBox";
+            this.listBox.Size = new System.Drawing.Size(340, 251);
+            this.listBox.TabIndex = 2;
             // 
             // MVCForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(364, 370);
+            this.Controls.Add(this.listBox);
+            this.Controls.Add(this.buttonAdd);
+            this.Controls.Add(this.textBoxString);
             this.Name = "MVCForm";
             this.Text = "MVCFormCollectionStrings";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.TextBox textBoxString;
+        private System.Windows.Forms.Button buttonAdd;
+        private System.Windows.Forms.ListBox listBox;
     }
 }
 
