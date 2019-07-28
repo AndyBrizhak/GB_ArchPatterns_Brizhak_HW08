@@ -5,6 +5,9 @@
     /// </summary>
     public interface IContr
    {
+       /// <summary>
+       /// 
+       /// </summary>
        void AddList();
    }
 }
